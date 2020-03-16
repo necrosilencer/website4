@@ -1,0 +1,27 @@
+/*CSS NAV */
+
+* {margin:0 auto;
+	padding:0 auto;
+	box-sizing:border-box;
+	font-family: 'Open Sans Condensed', sans-serif}
+
+
+nav {width: 100%;
+	position: fixed;
+	top: 0px;
+	background-color:#204864;
+	font-size:1.4em;
+	}
+
+/* NAV HTML*/
+<nav class="nav" >
+  <a class="nav-link active" href="#">Home</a>
+  <a class="nav-link" href="#">Produtos</a>
+  <a class="nav-link" href="#">Contato</a>
+   <a class="nav-link" href="#" id='entrar'>Entrar</a>
+  <a class="nav-link" href='#' id="cart" ><img src="shopping-cart.png" alt="Carrinho de compras"></a>
+  <a class="nav-link disabled" href="registrar.html" tabindex="-1" aria-disabled="true" id="registrar">Registrar</a>
+</nav>
+
+
+

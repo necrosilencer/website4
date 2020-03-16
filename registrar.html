@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<!-- BOOTSTRAPSPSPSPSPSPS  -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+	<!-- FONTE DO GOOGLE FONTS -->
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+
+
+	<meta name="viewport" content="width=device-width">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="estilo.css">
+	<title>Registrar</title>
+</head>
+<body>
+
+<nav class="nav" >
+  <a class="nav-link active" href="#">Home</a>
+  <a class="nav-link" href="#">Produtos</a>
+  <a class="nav-link" href="#">Contato</a>
+   <a class="nav-link" href="#" id='entrar'>Entrar</a>
+  <a class="nav-link" href='#' id="cart" ><img src="shopping-cart.png" alt="Carrinho de compras"></a>
+  <a class="nav-link disabled" href="registrar.html" tabindex="-1" aria-disabled="true" id="registrar">Registrar</a>
+</nav>
+
+<br>
+<br>
+<br>
+
+
+<div id="corpo" class="container-fluid">
+	<h3>Registrar informações do usuario</h3>
+	<div id="borda" class="container-fluid">	
+		<form action="registrar.php" method="post">
+		<br>
+			<label for="">Nome</label>
+			<br>
+			<input type="text" name="nome" title="Nome" placeholder="Primeiro Nome" required max="20">
+	<br>
+			<label for="">Sobrenome</label>
+			<br>
+			<input type="text" name="sobrenome" title="Sobrenome" placeholder="Sobrenome" required max="50">
+	<br>
+			<label for="">Nome de usuario</label>
+			<br>
+			<input type="text" name="login" title="Nome de usuario" placeholder="Login" required max="50">
+		<br>
+			<label for="">Senha</label>
+			<br>
+			<input type="password" name="senha" title="Senha" placeholder="Sua senha" required max="50">
+		<br>
+			<label for="">Confirme a senha</label>
+			<br>
+			<input type="password" name="confirma" title="Confirme a senha" placeholder="confirme a senha" required  max="50">
+		<br>
+		<br>
+		<input type="submit" value="cadastrar">
+		<input type="reset" value="limpar">
+		<br><br>
+		</form>
+	</div>
+</div>
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
+
+  <!-- Footer Text -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
+
+        <!-- LEMBRAR DE COLOCAR CONTEUDO -->
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
+          repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
+          harum esse fugiat. Itaque, culpa?</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">Footer text 2</h5>
+        <!-- LEMBRAR DE COLOCAR CONTEUDO -->
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum
+          commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id
+          excepturi hic.</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Text -->
+
+  <!-- Direitos reservados -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="home.html">3dprints.com</a>
+  </div>
+  <!--Direitos reservados-->
+
+</footer>
+<!-- Final do Footer -->
+
+</body>
+</html>
